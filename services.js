@@ -63,7 +63,7 @@ class Person {
   }
 }
 class Alert extends Person{ // não é a melhor opção para validação, no caso seria receber o objeto e validar se o objeto esta correto ou não
-  constructor(name, height, weight){// não recebia o argumento (inputs)
+  constructor(name, height, weight){ // não recebia o argumento (inputs)
     super(name, height, weight)
   }
   alertInvalidName(){

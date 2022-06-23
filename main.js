@@ -5,7 +5,7 @@ function showResultsOnButtonClick(){
 
   showImcResultOnScreen(namePersonResult, heightPersonResult, weightPersonResult)
 
-  const alert = new Alert()
+  const alert = new Alert(namePersonResult, heightPersonResult, weightPersonResult)
   alert.alertInvalidName()
   alert.alertInvalidHeight()
   alert.alertInvalidWeight()
