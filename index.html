@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Calculator IMC</title>
+</head>
+<body>
+  <div class="container">
+    <div class=" header">
+      <header>
+        <h1>Calduladora - IMC</h1>
+      </header>
+    </div>
+
+    <hr>
+
+    <main>
+      <div class="formulario">
+
+        <form action="">
+          <fieldset>
+            <div class="name">
+              <label for="name"><h2>Nome:</h2></label>
+              <input type="text" placeholder="Ex: Albert Einstein" id="name" value="">
+            </div>
+            <div class="height">
+              <label for="height"><h2>Altura:</h2></label>
+              <input type="number" id="height" placeholder="Em Centímetros" value="">
+            </div>
+            <div class="weight">
+              <label for="weight"><h2>Peso:</h2></label>
+              <input type="number" id="weight" placeholder="Em Quilogramas" value="">
+            </div>
+            <button onclick="showResultsOnButtonClick()" type="button">Calcular</button>
+
+          </fieldset>
+        </form>
+
+      </div>
+
+      <div class="result">
+      </div>
+
+    </main>
+  </div>
+  
+  <script src="./services.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
